@@ -3,13 +3,14 @@ import Header from './components/header/Header'
 import Main from './components/main/Main'
 import carImage from './images/undraw_city_driver_jh2h.png'
 import Footer from './components/footer/Footer'
+import About from './components/about/about'
 
 import './index.css'
 
 function App() {
   return (
     <div className="font-sans  ">
-      <img
+      {/* <img
         src={carImage}
         alt="car image"
         className="absolute right-0 z-0 w-7/12 h-5/6"
@@ -18,7 +19,8 @@ function App() {
       <div className="w-full mx-auto">
         <Main />
         <Footer />
-      </div>
+      </div> */}
+      <About />
     </div>
   )
 }
