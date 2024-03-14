@@ -6,7 +6,7 @@ const About = () => {
   return (
     <div>
       <Header />
-      <div className="flex flex-col justify-center p-64 w-full">
+      <div className="flex flex-col justify-center items-center	 p-64 w-full">
         <div className="w-9/12">
           <img src={about} alt="About us " />
         </div>
