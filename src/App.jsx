@@ -4,6 +4,7 @@ import Main from './components/main/Main'
 import carImage from './images/undraw_city_driver_jh2h.png'
 import Footer from './components/footer/Footer'
 import About from './components/about/about'
+import Faq from './components/faq/Faq'
 
 import './index.css'
 
@@ -20,7 +21,8 @@ function App() {
         <Main />
         <Footer />
       </div> */}
-      <About />
+      {/* <About /> */}
+      <Faq />
     </div>
   )
 }
